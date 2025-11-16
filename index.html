@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andes Active | Ropa deportiva colombiana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header" id="inicio">
+        <div class="container">
+            <p class="logo">Andes Active</p>
+            <nav class="main-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#productos">Productos</a>
+                <a href="#envios">Envios</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__grid">
+                <div>
+                    <p class="hero__tag">Hecho en Colombia</p>
+                    <h1>Ropa deportiva lista para tu ritmo</h1>
+                    <p>
+                        Linea urbana y de alto rendimiento para entrenar, viajar o salir a la calle sin perder estilo.
+                        Compras en pesos colombianos, envios nacionales y soporte cercano.
+                    </p>
+                    <ul class="hero__list">
+                        <li>Materiales respirables certificados.</li>
+                        <li>Colecciones limitadas con tallas latinoamericanas.</li>
+                        <li>Pagos con tarjeta, PSE o contraentrega.</li>
+                    </ul>
+                    <div class="hero__actions">
+                        <button class="btn primary" data-scroll="#productos">Ver coleccion</button>
+                        <a class="btn ghost" href="#envios" data-scroll="#envios">Politicas de envio</a>
+                    </div>
+                </div>
+                <div class="hero__card">
+                    <p class="hero__card-title">Info rapida</p>
+                    <ul>
+                        <li><strong>Envios 24-72h</strong> a las principales ciudades.</li>
+                        <li><strong>Beneficio estudiantil:</strong> 10% off con carnet vigente.</li>
+                        <li><strong>Hecho en Medellin</strong> por talleres locales.</li>
+                    </ul>
+                    <p class="hero__card-note">Precios expresados en COP (pesos colombianos).</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section highlights">
+            <div class="container highlight__grid">
+                <article>
+                    <h3>Secado rapido</h3>
+                    <p>Tejidos con tecnologia dry fit para entrenamientos en clima tropical.</p>
+                </article>
+                <article>
+                    <h3>Costuras reforzadas</h3>
+                    <p>Resiste sesiones intensas de gimnasio, running y ciclismo urbano.</p>
+                </article>
+                <article>
+                    <h3>Economia local</h3>
+                    <p>Apoyamos fabricantes colombianos garantizando trazabilidad y empleo.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section products" id="productos">
+            <div class="container">
+                <div class="section__heading">
+                    <div>
+                        <p class="section__eyebrow">Coleccion 2025</p>
+                        <h2>Productos destacados</h2>
+                    </div>
+                    <div class="cart-summary" aria-live="polite">
+                        <p><strong>Carrito:</strong> <span id="cart-count">0</span> items</p>
+                        <p>Total: <span id="cart-total">COP $0</span></p>
+                    </div>
+                </div>
+                <div class="products__grid">
+                    <article class="product-card">
+                        <div class="product-card__badge">Envio gratis</div>
+                        <h3>Leggins Amazonas</h3>
+                        <p>Soporte alto y compresion ligera, ideal para yoga y cycling.</p>
+                        <ul>
+                            <li>Tallas XS - XL</li>
+                            <li>Colores: Jade, Onix</li>
+                        </ul>
+                        <p class="product-card__price" data-price="189000">COP $189.000</p>
+                        <button class="btn secondary add-cart" data-product="Leggins Amazonas" data-price="189000">Agregar al carrito</button>
+                    </article>
+                    <article class="product-card">
+                        <div class="product-card__badge">Mas vendido</div>
+                        <h3>Chaqueta StormFit</h3>
+                        <p>Impermeable ligera con cortes reflectivos para running nocturno.</p>
+                        <ul>
+                            <li>Tallas S - XXL</li>
+                            <li>Resiste lluvia ligera</li>
+                        </ul>
+                        <p class="product-card__price" data-price="259000">COP $259.000</p>
+                        <button class="btn secondary add-cart" data-product="Chaqueta StormFit" data-price="259000">Agregar al carrito</button>
+                    </article>
+                    <article class="product-card">
+                        <h3>Top Pacifico</h3>
+                        <p>Sujetador con doble capa y espalda cruzada para entrenamientos HIIT.</p>
+                        <ul>
+                            <li>Tallas XS - L</li>
+                            <li>Compresion media</li>
+                        </ul>
+                        <p class="product-card__price" data-price="99000">COP $99.000</p>
+                        <button class="btn secondary add-cart" data-product="Top Pacifico" data-price="99000">Agregar al carrito</button>
+                    </article>
+                    <article class="product-card">
+                        <h3>Jogger Altura</h3>
+                        <p>Algodon premium con bolsillos ocultos y pretina elastica.</p>
+                        <ul>
+                            <li>Tallas S - XL</li>
+                            <li>Colores: Arena, Grafito</li>
+                        </ul>
+                        <p class="product-card__price" data-price="149000">COP $149.000</p>
+                        <button class="btn secondary add-cart" data-product="Jogger Altura" data-price="149000">Agregar al carrito</button>
+                    </article>
+                    <article class="product-card">
+                        <h3>Conjunto Ruta</h3>
+                        <p>Camibuzo + short con proteccion UV50 para ciclismo urbano.</p>
+                        <ul>
+                            <li>Tallas XS - XXL</li>
+                            <li>Badana antibacterial</li>
+                        </ul>
+                        <p class="product-card__price" data-price="329000">COP $329.000</p>
+                        <button class="btn secondary add-cart" data-product="Conjunto Ruta" data-price="329000">Agregar al carrito</button>
+                    </article>
+                    <article class="product-card">
+                        <h3>Camisa Vapor</h3>
+                        <p>Camisa oversize con malla lateral para looks athleisure.</p>
+                        <ul>
+                            <li>Tallas S - XXL</li>
+                            <li>Edicion limitada</li>
+                        </ul>
+                        <p class="product-card__price" data-price="119000">COP $119.000</p>
+                        <button class="btn secondary add-cart" data-product="Camisa Vapor" data-price="119000">Agregar al carrito</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section shipping" id="envios">
+            <div class="container">
+                <div class="section__heading">
+                    <p class="section__eyebrow">Cobertura nacional</p>
+                    <h2>Envios y medios de pago</h2>
+                </div>
+                <div class="shipping__grid">
+                    <article>
+                        <h3>Ciudades principales</h3>
+                        <p>Medellin, Bogota, Cali, Barranquilla y Bucaramanga: entrega entre 24 y 48 horas habiles.</p>
+                    </article>
+                    <article>
+                        <h3>Resto del pais</h3>
+                        <p>Enviamos con Coordinadora, Servientrega y Envia. Tiempos de 3 a 5 dias habiles segun destino.</p>
+                    </article>
+                    <article>
+                        <h3>Pagos</h3>
+                        <p>Aceptamos tarjetas de credito, PSE, Nequi, Daviplata y contraentrega con recargo.</p>
+                    </article>
+                </div>
+                <div class="shipping__cta">
+                    <p>Pedidos superiores a COP $250.000 incluyen envio gratuito.</p>
+                    <button class="btn primary" data-scroll="#contacto">Hablar con asesoria</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section testimonials">
+            <div class="container testimonials__grid">
+                <article>
+                    <p class="quote">�La calidad es superior a marcas importadas y llega rapidisimo a Bogota.�</p>
+                    <p class="quote__author">Laura M. - Running team Chia</p>
+                </article>
+                <article>
+                    <p class="quote">�El jogger Altura es perfecto para viajar, cero arrugas y super comodo.�</p>
+                    <p class="quote__author">Felipe R. - Consultor</p>
+                </article>
+                <article>
+                    <p class="quote">�Excelente soporte pre y post venta. Compramos para el equipo de baile.�</p>
+                    <p class="quote__author">Academia Flow Cali</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contacto">
+            <div class="container contact__grid">
+                <div>
+                    <p class="section__eyebrow">Atencion directa</p>
+                    <h2>Contacto y pedidos al por mayor</h2>
+                    <p>Escribe y un asesor respondera en horario laboral (8am - 6pm GMT-5).</p>
+                    <ul class="contact__data">
+                        <li>WhatsApp: +57 300 555 1234</li>
+                        <li>Email: hola@andesactive.co</li>
+                        <li>Showroom: El Poblado, Medellin.</li>
+                    </ul>
+                </div>
+                <form class="contact__form">
+                    <label>
+                        Nombre completo
+                        <input type="text" placeholder="Tu nombre" required>
+                    </label>
+                    <label>
+                        Correo
+                        <input type="email" placeholder="correo@ejemplo.com" required>
+                    </label>
+                    <label>
+                        Mensaje
+                        <textarea rows="4" placeholder="Cu�ntanos que necesitas"></textarea>
+                    </label>
+                    <button type="submit" class="btn primary">Enviar</button>
+                    <p class="form-note">*Ejemplo educativo, no guarda informacion.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>Andes Active � Marca ficticia para fines academicos.</p>
+            <p><small>Listo para desplegar en GitHub Pages.</small></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
